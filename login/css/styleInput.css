@@ -1,0 +1,40 @@
+.input {
+    background-color: red;
+    color: white;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.div_input {
+    background-color: red;
+    border: solid white 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 420px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+#submitButton {
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+
+#submitButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
